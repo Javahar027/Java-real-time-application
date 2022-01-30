@@ -1,4 +1,4 @@
-                                                                                      ATM
+                                                                                  ATM
                                                  
 ADMIN :
   Admin username : admin@123
@@ -25,7 +25,7 @@ USER :
    
    
                                                                               
-                                                                             AMAZON
+                                                                         AMAZON
                                                                              
 ADMIN :
   Admin username : admin
@@ -61,7 +61,31 @@ USER :
     6.Buy Items        -> Buy available items from thr store.
     
     
-                                                                               LIBRARY
+                                                                           RAILWAY
+                                                                           
+ADMIN :
+  Admin username : admin
+  Admin password : admin
+  
+  ADMIN FUNCTIONS :
+    a.Add train           -> Add new train.
+    b.Seats availability  -> Declare the seats availability of a particular train.
+    c.View Traiins        -> View all the available trains.
+    
+USER :
+  User name : Javahar
+  Password  : 123
+  
+  USER FUNCTIONS :
+    1.REGISTER -> Registration of the new user.
+    2.LOGIN :
+      a.View Train      -> View all the available trains.
+      b.Book tickets    -> Book the tickets we desired.
+      c.View bookings   -> View all the bookings by the user.
+      d.Cancel bookings -> Cancel the bookings user made.
+    
+    
+                                                                           LIBRARY
                                                                              
 ADMIN :
   Admin username : admin
@@ -109,7 +133,25 @@ USER :
    
    
    
-                                                                      SPLITWISE
+                                                                   SPLITWISE
+                                                                   
+USER :
+
+  1.REGISTER -> Username and password.
+  
+  2.LOGIN : 
+      1.CREATE GROUP    -> Create new group.
+      2.UPDATE WALLET   -> Update the wallet amount.
+      3.GROUP EXPENSE :
+        a.Add an expense  -> Add a new expense for the group.
+        b.Remove friends  -> Remove a friend from the group.
+        c.Dues            -> View dues and if any pay the dues.
+        d.History         -> Transaction history of the user.
+     4.NON GROUP EXPENSE :
+        a.Add an expense  -> Add a new expense for the group.
+        b.Dues            -> View dues and if any pay the dues.
+        c.History         -> Transaction history of the user.
+      
   
   
     
